@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.faq-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  background: rgb(50,16,49);
+background: linear-gradient(90deg, rgba(50,16,49,1) 0%,
+rgba(204,79,208,1) 34%, rgba(43,46,103,1) 100%);
+}
+
+.card-container{
+  width: 90rem;
+  height: 35rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+border-radius: 20px;
+padding: 10rem;
+
+}
+
+.study{
+  width: 34rem;
+  margin-left: 10rem;
+  border-radius: 50rem;
+}
+
+.faq-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  margin-top: -10rem;
+  margin-left: 15rem;
+  gap: 1rem;
+}
+
+.card-tittle{
+  margin-top: 7rem;
+  margin-left: -17rem;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.idea-gif{
+  width: 2.5rem;
+}
+
+.details-list{
+  width: 25rem;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1rem;
+  gap: 2rem;
+}
+
+.arrow{
+  width: 1rem;
+}
+.details-para{
+  margin-top: 2rem;
+}
+
+.divider{
+  margin-top: 2rem;
+}
